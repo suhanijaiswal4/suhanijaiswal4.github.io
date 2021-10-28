@@ -1,0 +1,20 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "url": "https://raw.githubusercontent.com/suhanijaiswal4/suhanijaiswal4.github.io/main/building_inventory.csv"
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "Year Constructed",
+      "type": "quantitative",
+      "scale": {"domain": [900, 2050]}
+    },
+    "y": {
+      "field": "Year Acquired",
+      "type": "quantitative",
+      "scale": {"domain": [900, 2050]}
+    }
+  },
+  "config": {}
+}
